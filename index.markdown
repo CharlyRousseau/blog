@@ -4,7 +4,6 @@
 
 layout: post
 ---
-<!doctype html>
 <html>
   <head>
     <div class='cadre'>
