@@ -7,11 +7,11 @@ layout: post
 <html>
   <head>
     <div class='cadre'>
-        <img id="image" src="{{site.baseurl}}/image/emergency.png">
+        <img id="image" src="/image/emergency.png">
     </div>
     <meta charset="utf-8">
-    <img id="logo" src="{{site.baseurl}}/image/Among_Us_Logo.png" alt="" />
-    <link href="{{site.baseurl}}/css/button.css" rel="stylesheet">
+    <img id="logo" src="/image/Among_Us_Logo.png" alt="" />
+    <link href="/css/button.css" rel="stylesheet">
   </head>
 
   <body>
@@ -36,7 +36,7 @@ layout: post
         setTimeout("d1.classList.remove('visible');",2700);
       });
       function playAudio() {
-          new Audio("{{site.baseurl}}/sounds/alert.ogg").play();
+          new Audio("/sounds/alert.ogg").play();
       }
       function sendMessage() {
 
